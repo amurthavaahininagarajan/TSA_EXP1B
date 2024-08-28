@@ -8,16 +8,27 @@
 To perform regular differncing,seasonal adjustment and log transformatio on cinema ticket sold data.
 ### ALGORITHM:
 1.Load the necessary libraries for data manipulation, numerical operations, visualization, and statistical testing.
+
 2.Read the data from the CSV file into a DataFrame.
+
 3.Convert the 'date' column to datetime format for time series analysis.
+
 4. Set the 'date' column as the index of the DataFrame.
+
 5.Plot the 'total_sales' data over time to visualize the original series.
+
 6. Create a function to perform the Augmented Dickey-Fuller test to check for stationarity.
-7. Apply the ADF test on the original 'total_sales' data and print the results.
-8. Create a differenced version of the 'total_sales' data to remove trends and plot it.
+
+7. Apply the ADF test on the original 'total_sales' data and print the results. 
+
+8. Create a differenced version of the 'total_sales' data to remove trends and plot it. 
+
 9.Create a seasonally differenced version of the 'total_sales' data (assuming a monthly frequency) and plot it.
+
 10.Perform a log transformation on the 'total_sales', then difference the log-transformed data, and plot it.
+
 11.Apply the ADF test on the log-differenced 'total_sales' data and print the results.
+
 ### PROGRAM:
 ```
 import pandas as pd
